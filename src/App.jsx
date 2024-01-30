@@ -7,6 +7,8 @@ import UseEffectHook from './components/UseEffectHook'
 import MyContext from './components/useContext/MyContext'
 import UseReducer from './components/UseReducer'
 import UseCallbackHook from './components/useCallbackHook/UseCallbackHook'
+import UseMemoHook from './components/useMemoHook'
+import UseRefHook from './components/UseRefHook'
 
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
     {/* <UseEffectHook /> */}
     {/* <MyContext /> */}
     {/* <UseReducer /> */}
-    <UseCallbackHook />
+    {/* <UseCallbackHook /> */}
+    {/* <UseMemoHook /> */}
+    <UseRefHook />
     </>
   )
 }
