@@ -9,6 +9,7 @@ import UseReducer from './components/UseReducer'
 import UseCallbackHook from './components/useCallbackHook/UseCallbackHook'
 import UseMemoHook from './components/useMemoHook'
 import UseRefHook from './components/UseRefHook'
+import UsesCustomHook from './components/UseCustomHook/UsesCustomHook'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
     {/* <UseReducer /> */}
     {/* <UseCallbackHook /> */}
     {/* <UseMemoHook /> */}
-    <UseRefHook />
+    {/* <UseRefHook /> */}
+    <UsesCustomHook />
     </>
   )
 }
