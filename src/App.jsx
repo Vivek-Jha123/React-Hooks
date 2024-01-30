@@ -6,6 +6,7 @@ import UseStateHook from './components/UseStateHook'
 import UseEffectHook from './components/UseEffectHook'
 import MyContext from './components/useContext/MyContext'
 import UseReducer from './components/UseReducer'
+import UseCallbackHook from './components/useCallbackHook/UseCallbackHook'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
     {/* <UseStateHook /> */}
     {/* <UseEffectHook /> */}
     {/* <MyContext /> */}
-    <UseReducer />
+    {/* <UseReducer /> */}
+    <UseCallbackHook />
     </>
   )
 }

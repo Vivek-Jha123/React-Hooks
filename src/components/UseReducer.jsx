@@ -21,6 +21,7 @@ const fnReducer = (state, action) => {
 
 const UseReducer = () => {
   const initialState = {count : 0};
+ 
   const [state, dispatch] = useReducer(fnReducer, initialState);
 
   const handleIncrement = () => {
